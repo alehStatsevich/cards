@@ -1,0 +1,23 @@
+
+
+.question, .answer {
+    justify-content: start!important;
+
+}
+
+
+.title {
+    margin-right: 10px;
+    font-weight: 700;
+}
+.spanAnswer, .spanQuestion{
+    max-height: 300px;
+    overflow: auto;
+    font-weight: 400;
+}
+
+.radio__block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start!important;
+}

@@ -1,0 +1,58 @@
+.block{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.superInput {
+
+    width: 347px;
+    height: 48px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid rgba(36, 37, 74, 0.2)  ;
+    background: #F9F9FE;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    color: #2D2E46;
+
+}
+
+
+.placeholder{
+    position: absolute;
+    left: 0;
+    right: 91.07%;
+    top: 0;
+    bottom: 58.33%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #24254A;
+    opacity: 0.5;
+}
+
+.errorInput {
+    border: 2px solid red;
+}
+
+
+.error {
+    color: red;
+}
+.eye {
+    position: absolute;
+    right: 0;
+    top: 40%;
+    transition: all 0.3s ease-in-out;
+}
+.eye:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}

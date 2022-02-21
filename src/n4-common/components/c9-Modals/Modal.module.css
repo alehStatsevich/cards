@@ -1,0 +1,112 @@
+.wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #00000099;
+    z-index: 100;
+
+    /* position elements*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pink {
+    background:rgba(230, 212, 222, 1);
+}
+
+.form__block {
+    z-index: 1000;
+    width: 413px;
+    margin: 30px auto 0;
+    padding: 25px 33px 30px 33px;
+    border-radius: 8px;
+    background-color: #F9F9FE;
+    display: flex;
+    flex-direction: column;
+    color: #24254a;
+}
+
+.form__block div {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title__wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.center {
+    justify-content: center!important;
+}
+
+.title {
+    margin: 0;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+
+.button {
+    /* Reset */
+    background-color: transparent;
+    border-color: transparent;
+
+    /* Cursor */
+    cursor: pointer;
+
+    /* Size */
+    height: 22px;
+    width: 22px;
+
+    /* Used to position the inner */
+    position: relative;
+}
+
+.button__line {
+    /* Background color */
+    background-color: rgba(0, 0, 0, 0.3);
+
+    /* Position */
+    position: absolute;
+
+    /* Size */
+    height: 1px;
+    width: 100%;
+}
+
+.button__line_first {
+    /* Position */
+    left: 0;
+    top: 50%;
+    transform: translate(0%, -50%) rotate(45deg);
+
+    /* Size */
+    height: 1px;
+    width: 100%;
+}
+
+.button__line_second {
+    /* Position */
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0%) rotate(45deg);
+
+    /* Size */
+    height: 100%;
+    width: 1px;
+}
+
+.form__block input {
+    margin: 10px 0 ;
+}

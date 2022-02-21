@@ -1,0 +1,50 @@
+.default {
+    font-size: 16px;
+    height: 36px;
+    width: 187px;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #ECECF9;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+    background: #21268F;
+    box-shadow: 0 4px 18px rgba(33, 38, 143, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+}
+
+
+.default:hover {
+    background-color: #ECECF9;
+    color: #21268F
+}
+
+.red {
+    background: #F1453D;
+}
+.registrationCancel{
+    background: #D7D8EF;
+    border: 1px solid #D7D8EF;
+    border-radius: 30px;
+    width: 124px;
+    height: 36px;
+    cursor: pointer;
+    box-shadow: 0 4px 18px rgba(33, 38, 143, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+.registrationCancel:hover {
+    border: 2px solid  #21268F;
+    box-shadow: 0 4px 18px rgba(33, 38, 143, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.red:hover {
+    background-color: darkred;
+}
+
+.disabled {
+    font-size: 16px;
+    height: 36px;
+    width: 187px;
+    border-radius: 30px;
+}

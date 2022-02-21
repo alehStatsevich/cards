@@ -1,0 +1,6 @@
+.default {
+    cursor: pointer;
+}
+.default input{
+    margin-right: 10px;
+}

@@ -1,0 +1,64 @@
+.table {
+    width: 960px;
+    min-height: 432px;
+    border-radius: 3px;
+    margin: 10px auto;
+    filter: drop-shadow(0px 4px 14px rgba(45, 46, 70, 0.15));
+}
+
+.gradeTitle {
+    margin-right: 11px;
+}
+
+.gradeTitle:last-child {
+    margin-right: 18px;
+}
+
+.card {
+    width: 100%;
+    min-height: 48px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card:nth-child(n) {
+    padding: 0 20px;
+}
+
+.card:nth-child(odd) {
+    background-color: #F8F7FD;
+}
+
+.card:first-child {
+    background-color: #ECECF9;
+    font-weight: bold;
+}
+
+.qaSections {
+    width: 30%;
+    text-align: left;
+}
+
+.cardInfo {
+    width: 25%;
+    margin-left: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardInfoWithActions {
+    width: 40%;
+}
+
+.actionsBtn {
+    width: 55px;
+    height: 33px;
+    font-size: 14px;
+}
+
+.actionsBtn:first-child {
+    margin-right: 3px;
+}

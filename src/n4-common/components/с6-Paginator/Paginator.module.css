@@ -1,0 +1,50 @@
+.paginator {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.page {
+    width: 24px;
+    height: 24px;
+    line-height: 1.5;
+    border-radius: 2px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 3px;
+    text-align: center;
+}
+
+.page.currentPage {
+    color: #fff;
+    background-color: #21268F;
+}
+
+.lastPage {
+    width: auto;
+}
+
+.paginatorNumbers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 200px;
+    height: 21px;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn::before {
+    content: "\003E";
+    font-size: 17px;
+    color: #21268F;
+}
+
+.btn:first-child::before {
+    content: "\003C";
+}

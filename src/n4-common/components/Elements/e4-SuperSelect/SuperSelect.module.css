@@ -1,0 +1,7 @@
+.default {
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 3px;
+    background-color: #FEFEFF;
+    margin: 0 5px;
+}

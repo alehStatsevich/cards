@@ -1,0 +1,24 @@
+.box__message {
+  position: absolute;
+  top: 40px; /* position the top  edge of the element at the middle of the parent */
+  color: #fff;
+  max-width: 250px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 7px 10px;
+  background-color:#f54a4a8c;
+  border-radius: 5px 5px 5px 5px;
+  z-index: 1000;
+  text-align: center;
+}
+
+.register{
+  color: #fff;
+  max-width: 250px;
+  margin: 0 auto;
+  padding: 7px 10px;
+  background-color:#f54a4a8c;
+  border-radius: 5px 5px 5px 5px;
+  text-align: center;
+}
